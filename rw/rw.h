@@ -17,7 +17,7 @@
 // with this program; if not, write to the Free Software Foundation, Inc.,
 // 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
-// This is a program that calculates rank-width and rank-decompositions. It is based on ideas from "Computing rank-width exactly" by Sang-il Oum, "Sopra una formula numerica" by Ernesto Pascal and "Generation of a Vector from the Lexicographical Index" by B.P. Buckles and M. Lybanon.
+// This is a program that calculates rank-width and rank-decompositions. It is based on ideas from "Computing rank-width exactly" by Sang-il Oum, "Sopra una formola numerica" by Ernesto Pascal and "Generation of a Vector from the Lexicographical Index" by B.P. Buckles and M. Lybanon.
 // On 2009's computers it works quite well up to graph sizes of about 28 nodes. 
 // It is an implementation of the trivial algorithm from "Computing rank-width exactly". For larger graphs (more than about 40 nodes) the more algorithm based on fast subset convolution from the same paper would probably be faster.
 
