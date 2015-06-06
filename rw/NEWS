@@ -1,0 +1,5 @@
+0.5:
+	- Use libigraph >= 0.6.
+	- Moved example graphs into their own directory.
+	- Updated documentation.
+

@@ -133,7 +133,7 @@ int read_graph(const char *format, const char * filename)
 		igraph_destroy(&igraph);
 		return(-1);
 	}
-	igraph_get_adjacency(&igraph, &imatrix, IGRAPH_GET_ADJACENCY_BOTH);
+	igraph_get_adjacency(&igraph, &imatrix, IGRAPH_GET_ADJACENCY_BOTH, 0);
 	igraph_destroy(&igraph);
 	if(igraph_matrix_nrow(&imatrix) > MAX_VERTICES)
 	{
