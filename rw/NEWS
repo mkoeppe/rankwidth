@@ -3,3 +3,7 @@
 	- Moved example graphs into their own directory.
 	- Updated documentation.
 
+0.6:
+	- Autotoolize.
+	- Infrastructure for building shared library.
+
