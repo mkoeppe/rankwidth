@@ -7,3 +7,6 @@
 	- Autotoolize.
 	- Infrastructure for building shared library.
 
+0.7:
+	- Fix header installation for library.
+

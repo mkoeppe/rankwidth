@@ -1,5 +1,5 @@
 AC_PREREQ([2.59])
-AC_INIT([rw], [0.6], [philipp@informatik.uni-frankfurt.de])
+AC_INIT([rw], [0.7], [philipp@informatik.uni-frankfurt.de])
 AM_INIT_AUTOMAKE([-Wall foreign])
 AM_PROG_AR
 LT_PREREQ([2.4])

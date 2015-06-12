@@ -1,7 +1,8 @@
 # The "librw" library, contains all of the useful functions.
 lib_LTLIBRARIES = librw.la
-librw_la_SOURCES = rw.c rw.h
- 
+librw_la_SOURCES = rw.c
+include_HEADERS = rw.h
+
 # The "rw" binary, built against the librw library above.
 if EXECUTABLE
   bin_PROGRAMS = rw
