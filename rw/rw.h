@@ -1,7 +1,8 @@
 // Calculate rank-width and rank-decompositions of graphs.
 
 // Philipp Klaus Krause, philipp@informatik.uni-frankfurt.de, pkk@spth.de, 2009 - 2011
-// Copyright (c) 2009-2011 Philipp Klaus Krause
+// Copyright (c) 2009-2016 Philipp Klaus Krause
+// Copyright (c) 2009-2015 Goethe-Universität Frankfurt
 
 // This program is free software; you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
