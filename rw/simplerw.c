@@ -2,7 +2,8 @@
 // Compile using gcc -O2 --std=c99 -pedantic rw.c simplerw.c -ligraph
 
 // Philipp Klaus Krause, philipp@informatik.uni-frankfurt.de, pkk@spth.de, 2009 - 2011
-// Copyright (c) 2009-2011 Philipp Klaus Krause
+// Copyright (c) 2009-2016 Philipp Klaus Krause
+// Copyright (c) 2009-2015 Goethe-Universität Frankfurt
 
 // This program is free software; you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by

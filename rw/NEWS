@@ -10,3 +10,6 @@
 0.7:
 	- Fix header installation for library.
 
+0.8:
+	- Update documentation and build infrastructure.
+
