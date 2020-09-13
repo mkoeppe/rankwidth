@@ -12,5 +12,5 @@ if EXECUTABLE
   rw_LDADD = $(lib_LTLIBRARIES)
 endif
  
-dist_doc_DATA = README example_graphs/*
+dist_doc_DATA = README example_graphs/Hängematte example_graphs/grid example_graphs/igrid
 
