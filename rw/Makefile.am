@@ -3,6 +3,9 @@ lib_LTLIBRARIES = librw.la
 librw_la_SOURCES = rw.c
 include_HEADERS = rw.h
 
+# Enable shared library build on Cygwin
+AM_LDFLAGS = -no-undefined
+
 # The "rw" binary, built against the librw library above.
 if EXECUTABLE
   bin_PROGRAMS = rw
@@ -12,5 +15,5 @@ if EXECUTABLE
   rw_LDADD = $(lib_LTLIBRARIES)
 endif
  
-dist_doc_DATA = README example_graphs/*
+dist_doc_DATA = README example_graphs/Hängematte example_graphs/grid example_graphs/igrid
 
